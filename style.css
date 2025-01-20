@@ -1,0 +1,242 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#main {
+width:100%;
+height:85vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url(https://clubmahindra.gumlet.io/blog/media/section_images/shuttersto-25bb0e1cf52c048.jpg?w=376&dpr=2.6);
+background-position: center;
+
+}
+.container{
+width:30%;
+height:8vh;
+position:relative;
+top:25%;
+left:-30%;
+}
+.container h1{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color:rgb(255, 128, 60);
+    font-size: 3em;
+    letter-spacing:3px;
+}
+.container p{
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color:rgb(255, 255, 255);
+    left:10px;
+    position:relative;
+}
+.container button
+{
+ Width:150px;
+ height:5vh;
+background-color: transparent; 
+ border-color:rgb(224, 228, 228); 
+ cursor:ponter;
+transition-duration: 1s ;
+transition-timing-function: ease-out;
+position: relative;
+
+}
+.container button h2{
+font-size:15px;
+color: rgb(255, 251, 251);
+}
+.container a{
+  text-decoration:none;
+}
+.container button:hover{
+box-shadow: 4px 7px 7px rgb(19, 19, 20);
+cursor: pointer;
+}
+.logo{
+    font-size:1.3em;
+color: rgb(255, 128, 60);
+font-family: "M PLUS Rounded 1c", sans-serif;
+}
+a:link {
+    text-decoration: none;
+  }
+  .div-second{
+    width:100%;
+    height:15vh;
+    background-color: rgb(255, 255, 255);
+    font-size:20px;
+  }
+  .text h1{
+   color:rgb(23, 37, 126);
+    position:relative;
+    left:20%;
+    top:35px;
+    letter-spacing: 6px;
+  }
+  .text{
+    width:30%;
+    height:5vh;
+    background-color: rgb(255, 255, 255);
+    position:relative;
+    left:30%;
+  }
+  .content{
+    padding:37px;
+    position:relative;
+    top:-3vh;
+  }
+  /*.div-third{
+    width:100%;
+    height:10vh;
+    background-color: rgb(7, 193, 210);
+    position:relative;
+    top:-2vh;
+  }
+  .text2{
+    width:30%;
+    height:8vh;
+    background-color: rgb(255, 255, 255);
+    font-size:20px;
+    left:45%;
+    position:relative;
+  }
+  .text2 h1{
+    color:rgb(23, 37, 126);
+    position:relative;
+ 
+    
+  }*/
+  .content2{
+   width:100%;
+   height:40vh;
+   background-color: rgb(255, 255, 255);
+   display:flex;
+  }
+  .text-new{
+    width:30%;
+    height:12vh;
+    background-color: rgb(255, 255, 255);
+    font-size:20px;
+    left:10%;
+    position:relative;
+  }
+  .text-new h1{
+    color: rgb(23, 37, 126);
+    letter-spacing: 6px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+  }
+  .img-content{
+    width:30%;
+    height:38vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2017/11/07/0a36b5f1-90ad-4821-a0a8-0968c6d2439b/mountains-you-need-to-climb);
+    background-position: center;
+    left:30%;
+    position:relative;
+    border-radius: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    opacity:0.9;
+  }
+  .footer{
+    width:100%;
+    background-color: #242121;
+   height:50vh;
+   position:relative;
+   top:7vh;
+}
+.footer-main{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+    color:white;
+    position:relative;
+    top:1vh;
+}
+.footer-content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+    color:white;
+}
+.footer-content ul{
+    text-align: center;
+
+}
+.list{
+    padding: 0;
+    color:white;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+    color:white;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+    color:white;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+   
+}
+.social-icons i{
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+    color: #f18930;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bottom-bar{
+    background: #181817;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+    color:white;
+}
+.bottom-bar p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+    color:white;
+}
